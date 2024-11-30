@@ -12,25 +12,29 @@ const CarSection = () => {
       title: "Mini",
       image: Mini,
       description: "Compact and budget-friendly rides, perfect for short distances.",
-      price: "₹12",
+      price: "₹10",
+      capacity: "3-4 persons",
     },
     {
       title: "Sedan",
       image: Sedan,
       description: "Comfortable rides for small groups or families.",
-      price: "₹14",
+      price: "₹11",
+      capacity: "3-4 persons",
     },
     {
       title: "SUV",
       image: Suv,
       description: "Spacious and powerful rides, ideal for long journeys.",
-      price: "₹20",
+      price: "₹15",
+      capacity: "5-6 persons",
     },
     {
       title: "Luxury",
       image: Luxury,
       description: "Premium rides for a luxurious experience.",
-      price: "₹30",
+      price: "₹14-₹18",
+      capacity: "7-8 persons",
     },
   ];
 
@@ -45,6 +49,7 @@ const CarSection = () => {
             image={car.image}
             description={car.description}
             price={car.price}
+            capacity={car.capacity} // Pass the new capacity parameter
           />
         ))}
       </div>
