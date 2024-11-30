@@ -15,9 +15,12 @@ const Header = () => {
           Contact
         </a>
       </nav> */}
-      <button className="bg-white hover:bg-blue-700 text-blue-950 font-bold py-2 px-4 rounded text-sm sm:text-base">
+      <a
+        href="tel:+919111034494"
+        className="bg-white hover:bg-blue-700 text-blue-950 font-bold py-2 px-4 rounded text-sm sm:text-base"
+      >
         Call Now
-      </button>
+      </a>
     </div>
   );
 };
