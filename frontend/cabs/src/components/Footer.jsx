@@ -10,11 +10,11 @@ const Footer = () => {
             <h3 className="text-2xl font-semibold mb-4">Get in Touch</h3>
             <p className="text-gray-300 mb-2">Email us at:</p>
             <p className="text-blue-400">
-              <a href="mailto:thebrocabs@gmail.com">thebrocabs@gmail.com</a>
+              <a href="mailto:thebrocabs@gmail.com">thecabbro@gmail.com</a>
             </p>
             <p className="text-gray-300 mb-2 mt-4">Call us at:</p>
             <p className="text-blue-400">
-              <a href="tel:+919111034494">+91 91 11 0344 94</a>
+              <a href="tel:+919111034494">+919111034494</a>
             </p>
           </div>
           <div className="sm:ml-8 mt-6 sm:mt-0">
