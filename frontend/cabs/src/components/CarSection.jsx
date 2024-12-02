@@ -30,7 +30,7 @@ const CarSection = () => {
       capacity: "5-6 persons",
     },
     {
-      title: "Luxury",
+      title: "MUV",
       image: Luxury,
       description: "Premium rides for a luxurious experience.",
       price: "₹14-₹18",

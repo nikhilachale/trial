@@ -4,7 +4,7 @@ import Coverimg from "../images/cover.jpg"
 const Header = () => {
   return (
     <div className="bg-blue-950 text-white flex items-center justify-between px-4 sm:px-8 py-4">
-      <h1 className="text-2xl sm:text-3xl font-bold">TheBroCab</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold">TheCabBro</h1>
       {/* <nav className="hidden sm:flex space-x-6">
         <a href="#home" className="hover:underline">
           Home
