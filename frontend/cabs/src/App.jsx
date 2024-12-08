@@ -7,6 +7,8 @@ import CarSection from "./components/CarSection";
 import ServicesSection from "./components/ServiceSection";
 import PlacesContainer from "./components/PlacesContainer";
 import Footer from "./components/Footer";
+import AboutUs from "./components/AboutUs";
+
 
 function App() {
   return (
@@ -15,7 +17,11 @@ function App() {
       <HeroSection />
       <ServicesSection/>
       <CarSection />
+
       <PlacesContainer/>
+      <AboutUs/>
+
+
       
       <Footer/>
     </div>
